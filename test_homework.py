@@ -7,9 +7,9 @@
 
 import unittest
 
-from hw_01_06_solutions import *
+from hw_01_06 import *
 
-class TestHomework_01_9000(unittest.TestCase):
+class TestHomework_01_06(unittest.TestCase):
 
     def test_line_y_value(self):
         self.assertEqual(line_y_value(2, .5, 1), 2)
