@@ -15,7 +15,8 @@ def line_y_value(x, m, b):
     input: int/float x, int/float m, int/float b
     output: int/float
     """
-
+    
+    # 💻 WRITE CODE HERE -- DELETE THIS COMMENT AND pass
     pass
 
 def y_distance(point, m, b):
@@ -44,7 +45,8 @@ def y_distance(point, m, b):
         >>> abs(some_value)
         3
     """
-
+    
+    # 💻 WRITE CODE HERE -- DELETE THIS COMMENT AND pass
     pass
 
 def closest_to_line(list_of_points, m, b):
@@ -61,5 +63,6 @@ def closest_to_line(list_of_points, m, b):
     input: list of (int/float,int/float) pairs list_of_points, int/float m, int/float b
     output: (int/float, int/float)
     """
-
+    
+    # 💻 WRITE CODE HERE -- DELETE THIS COMMENT AND pass
     pass
