@@ -1,4 +1,4 @@
-# Unit 1 Homework 9000 Test script
+# Unit 1 Homework 6 Test script
 # Author: Chris Proctor and Jacob Wolf
 # --------------------
 # YOU DO NOT NEED TO UNDERSTAND THIS CODE RIGHT NOW!
