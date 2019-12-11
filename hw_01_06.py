@@ -18,26 +18,25 @@ def line_y_value(x, m, b):
 
     pass
 
-def residual(point, m, b):
+def y_distance(point, m, b):
     """
-    This function returns the residual of the given point from the line defined by slope m and
-    y-intercept b. The residual is the distance between the y value of the line at x and the
-    y value of the point.
+    This function returns the y_distance of the given point from the line defined by slope m and
+    y-intercept b - the distance between the y value of the line at x and the
+    y value of the point. This is know as a residual (📈check out residual.jpg in this directory for a graphic representation).
 
-        >>> distance_from_line((1,2), 0.5, 2)
+        >>> y_distance((1,2), 0.5, 2)
         0.5
 
-        >> distance_from_line((3,3), 0.0, 3)
+        >> y_distance((3,3), 0.0, 3)
         0.0
 
     input: (int/float, int/float) pair point, int/float m, int/float b
     output: int/float
 
     NOTE 1: point is an (x,y) pair. You can access the x and y values like this:
-        x = point[0]
-        y = point[1]
+        x, y = point
 
-    NOTE 2: Residuals like distances should always be a positive value (what does
+    NOTE 2: Distances should always be a positive value (what does
     it mean to have a distance of -1? 🧐). To do this, you may need to take the
     absolute value at some point in your function. You can do that using the abs()
     function:

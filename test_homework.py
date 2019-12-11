@@ -7,7 +7,7 @@
 
 import unittest
 
-from hw_01_06_solutions import *
+from hw_01_06 import *
 
 class TestHomework_01_9000(unittest.TestCase):
 
@@ -21,11 +21,11 @@ class TestHomework_01_9000(unittest.TestCase):
 
 
     def test_residual(self):
-        self.assertEqual(residual((1,2), 0.5, 2), 0.5)
-        self.assertEqual(residual((1,3), 0.5, 2), 0.5)
-        self.assertEqual(residual((3,3), 0.0, 3), 0.0)
-        self.assertEqual(residual((-1,-2), 0.5, 2), 3.5)
-        self.assertEqual(residual((-1,-2), 0.5, 2), 3.5)
+        self.assertEqual(y_distance((1,2), 0.5, 2), 0.5)
+        self.assertEqual(y_distance((1,3), 0.5, 2), 0.5)
+        self.assertEqual(y_distance((3,3), 0.0, 3), 0.0)
+        self.assertEqual(y_distance((-1,-2), 0.5, 2), 3.5)
+        self.assertEqual(y_distance((-1,-2), 0.5, 2), 3.5)
 
 
     def test_closest_to_line(self):
